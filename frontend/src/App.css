@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #1a3557, #2196F3);
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.navbar p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #1a3557;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1a3557;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  color: #1a3557;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
